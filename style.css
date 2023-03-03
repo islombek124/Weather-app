@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+section {
+  background-color: #4a515d;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+#form {
+  width: 510px;
+  height: 60px;
+}
+
+.scale-0 {
+  scale: 0;
+  rotate: 360deg;
+  transition: all 0.4s;
+}
+
+.scale-1 {
+  scale: 1;
+  rotate: -360deg;
+  transition: all 0.3s;
+}
